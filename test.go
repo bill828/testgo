@@ -1,8 +1,9 @@
-package main
+package gotest
 
 import "fmt"
 
-func main() {
-	fmt.Printf("Hello, world\n")
+
+func sum(a, b int) int {
+	return a + b
 }
 
