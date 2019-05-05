@@ -6,4 +6,8 @@ build:
       name: build-hello
       code: |
         go build -o _output/bin/hello hello/hello.go
+    - script:
+      name: build-intf
+      code: |
+        go build -o _output/bin/intf intf/intf.go
 
