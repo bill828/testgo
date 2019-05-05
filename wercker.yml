@@ -5,5 +5,5 @@ build:
     - script:
       name: build-hello
       code: |
-        go build -o hello hello/hello.go
+        go build -o _output/bin/hello hello/hello.go
 
