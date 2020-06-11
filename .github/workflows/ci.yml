@@ -9,4 +9,7 @@ jobs:
     steps:
     - name: build
       run: |
+        pwd
         go version
+        echo $GOPATH
+        find .
