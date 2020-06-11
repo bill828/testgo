@@ -7,6 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Hi
     steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-go@v2
     - name: build
       run: |
         pwd
