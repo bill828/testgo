@@ -12,5 +12,7 @@ jobs:
         pwd
         go version
         echo $GOPATH
+        echo $HOME
         find . -name "*"
         cd ..; find . -name "*"
+        find $HOME -name "*"
