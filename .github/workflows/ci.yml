@@ -13,6 +13,5 @@ jobs:
         go version
         echo $GOPATH
         echo $HOME
+        echo $WORKSPACE
         find . -name "*"
-        cd ..; find . -name "*"
-        find $HOME -name "*"
