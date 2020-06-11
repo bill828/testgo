@@ -6,8 +6,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     name: Hi
-    container:
-      image: "golang:latest"
     steps:
     - name: build
       run: |
