@@ -12,4 +12,5 @@ jobs:
         pwd
         go version
         echo $GOPATH
-        find .
+        find . -name "*"
+        cd ..; find . -name "*"
